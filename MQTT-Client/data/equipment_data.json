@@ -1,0 +1,36 @@
+[
+  {
+    "device_name": "dc_product",
+    "product_id": "6648374580984147088",
+    "device_secret": "457a7bd8029c99baed8036ab045ebbdb1cb64a7e2c01dba77bc2f5fe8a078bad",
+    "topics": {
+      "/6648374580984147088/dc_product/property/post": {
+        "msg_ver": 100,
+        "id": null,
+        "params": {
+          "property_float": 123.456,
+          "property_int": 100,
+          "property_bool": false,
+          "property_time": 1550249124,
+          "property_string": "SampleString"
+        }
+      },
+      "": {}
+    }
+  },
+  {
+    "device_name": "mo1",
+    "product_id": "6647535040164243775",
+    "device_secret": "fc139eb25afb00c774b6bc88b6840712f2127b035072a8a9e19461142f285717",
+    "topics": {
+      "/6647535040164243775/mo1/service/quality_safety/reply": {
+        "id": null,
+        "params": {
+          "is_qualified": 100
+        }
+      },
+      "": {}
+    }
+  },
+  {}
+]
